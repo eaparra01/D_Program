@@ -156,7 +156,7 @@ Delsys1 = ConnectionDelsys_1_1()  # Se crea el objeto Delsys de la clase Connect
 # sensorThread1 = Thread(target = Delsys.DecodificationData,args=())
 
 
-event1 = threading.Event()  # Crea el evento que ayuda a ejecutar el loop de la función Decodificador
+event1 = threading.Event()  # Crea el evento que ayuda a ejecutar el loop de la función guarda los datos decodificados un archivo .txt
 #event2 = threading.Event()  # Crea el evento que ayuda a ejecutar el loop para la función saveData
 #barrier = threading.Barrier(8)  # Crea la barrera y espera que los 8 hilos creados se terminen su ejecución para con el resto del programa
 
